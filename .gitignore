@@ -1,0 +1,25 @@
+# Dependencies and caches never go to the repository
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated output and user data (project files contain real names)
+out/
+*.pdf
+!sources/*.pdf
+*_yedekler/
+*.log
+
+# Build metadata from "pip install -e ."
+*.egg-info/
+build/
+
+# PyQt6 / Qt is installed with pip and never committed: it is GPL-3.0, this repository's code is MIT
+venv/
+PyQt6/
+PyQt6_*/
+PyQt6-*/
+Qt6/
+# Packaged builds (these would bundle PyQt6 and fall under GPL-3.0)
+dist/
