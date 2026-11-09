@@ -9,21 +9,6 @@ A desktop timetabler for Turkish middle and high schools (grades 5–12), built 
 - **User interface:** PyQt6 (Turkish)
 - **Built-in curricula (2025–2026):** Ortaokul, İmam Hatip Ortaokulu, Anadolu Lisesi, Anadolu İmam Hatip Lisesi, plus "Diğer / Özel" for anything else
 
-The full design and every decision behind it are in [PLAN.md](PLAN.md).
-
-## Status
-
-Work in progress. Milestones (see PLAN.md, section 11):
-
-- [x] M0: solver test run on a real school (anonymised benchmark)
-- [x] M1: data model, curriculum files, validation, save/load
-- [x] M2: solver core
-- [x] M3: all rules (R1–R12), minimal-change re-solve
-- [x] M4: "why no solution" explanations, quality report
-- [x] M5: PDF output
-- [x] M6: desktop application
-- [x] M7: polish (see PLAN.md section 14 for known gaps)
-
 ## Install (Windows 11, Linux, macOS)
 
 Requirements: **Python 3.10 or newer** (tested with 3.14) and **git**.
